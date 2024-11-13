@@ -1,0 +1,20 @@
+{
+    "name": "scallyt/mochi",
+    "description": "Minimalistic MVC framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mochi\\": "Mochi/"
+        }
+    },
+    "authors": [
+        {
+            "name": "scallyt"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "twig/twig": "4.x-dev"
+    }
+}
